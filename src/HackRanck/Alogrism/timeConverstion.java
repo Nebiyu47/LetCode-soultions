@@ -26,7 +26,6 @@ public class timeConverstion {
                 } else if ((hours == 12) && period.equalsIgnoreCase("PM")) {
                     newStrings = hours + ":" + min + ":" + second;
                 }
-
             }
             return newStrings;
         }
