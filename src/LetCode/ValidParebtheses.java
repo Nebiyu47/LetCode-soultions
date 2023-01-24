@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ValidParebtheses {
     public static void main(String[] args) {
-        String s ="()[]{}";
+        String s ="([}}])";
         System.out.println(isVaild(s));
     }
     public static boolean isVaild(String s){
@@ -22,7 +22,12 @@ public class ValidParebtheses {
                 stack.pop();
             }else if(c==']'&&!stack.isEmpty()&&stack.peek()=='['){
                 stack.pop();
+
             }
+
+        }
+        for(char c: stack) {
+            System.out.println(stack.peek());
         }
         if(stack.isEmpty()){
             return true;
