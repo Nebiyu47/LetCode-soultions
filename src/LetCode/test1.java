@@ -4,22 +4,23 @@ public class test1 {
 
     public static void main(String[] args) {
 
-        int[] a = {73, 67, 38, 33};
-        int[] n = new int[a.length];
+        int sum =0;
+        int x1=0;
+        int x2=3;
+        int v1=4;
+        int v2=2;
+        int [] result= new int[0];
+        int [] result2= new int[0];
+        while (x1<x2){
+            x1+=v1;
 
-        for (int i = 0; i < a.length; i++) {
-            double m = a[i]%5;
-           // System.out.println(m);
-            if (m!= 0) {
-                a[i]++;
-              // System.out.println(a[i]);
-            } else {
-                n[i] = a[i];
-                System.out.println(n[i]);
-            }
+            System.out.println(x1);
+            x2+=v2;
+          //  System.out.println(x2);
+
         }
-        for (int i=0;i<n.length;i++){
-       //   System.out.println(n[i]);
+        System.out.println("no");
+
         }
-    }
+
 }
