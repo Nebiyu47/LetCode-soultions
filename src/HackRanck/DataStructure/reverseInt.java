@@ -3,7 +3,7 @@ package HackRanck.DataStructure;
 
 public class reverseInt {
     public static void main(String[] args) {
-        System.out.println(reverse(154));
+        System.out.println(reverse(14));
     }
     public static int reverse(int num){
         int rev=0;
